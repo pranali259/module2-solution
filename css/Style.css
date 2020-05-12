@@ -9,8 +9,9 @@
 			margin-bottom: 15px;
 			font-size: 1.75em;
 		}
-		#CommonAtt{
-			
+		p {
+			padding-left: 10px;
+			padding-right: 10px;
 		}
 		.ShowRight{
 			float:right;
