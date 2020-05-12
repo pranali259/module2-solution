@@ -1,0 +1,76 @@
+/* Base Script*/
+		* {
+			box-sizing: border-box;
+			font-family: Sans-Serif;
+		}
+			
+		h1{	
+			text-align: center;
+			margin-bottom: 15px;
+			font-size: 1.75em;
+		}
+		#CommonAtt{
+			
+		}
+		.ShowRight{
+			float:right;
+			width: 120px;
+			text-align: center;
+			padding:4px 5px 4px 5px;
+			font-weight: bold;
+			font-size: 1.25em;
+			border:1px solid black;
+			margin: -1px -1px;
+		}
+		.CHeader{
+			background-color: #D59898;
+		}
+	   .BHeader{
+			background-color: #C14543;
+			color: white;
+		}
+	    .SHeader{
+			background-color: #E5D198;		
+		}
+/********** Large devices only **********/
+  @media (min-width: 992px) {
+    .LargeDev {
+      float: left;
+      background-color: #999999;
+      margin: 10px;
+      height: 150px;
+      width: 31%;
+      border:1px solid black;
+    }
+  }
+/********** Medium devices only **********/
+  @media (min-width: 768px) and (max-width: 991px) {
+    .MidDev1 {
+      float: left;
+      background-color: #999999;
+      margin: 10px;
+      height: 180px;
+      width: 47%;
+      border:1px solid black;
+    }
+    .MidDev2 {
+        float: left;
+        background-color: #999999;
+        margin: 10px;
+        width: 96.5%;
+        height: 180px;
+        border:1px solid black;
+      }
+    }
+  /********** Small devices only **********/
+  @media (max-width: 767px) and (min-width: 10px) {
+    .SmallDev {
+      float: left;
+      background-color: #999999;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      width: 95%;
+      border:1px solid black;
+    }
+}
+  
